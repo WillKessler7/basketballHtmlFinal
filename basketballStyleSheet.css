@@ -1,6 +1,9 @@
 body {background-color: powderblue;}
 
-.normalPadding {padding:20px;}
+.normalHeadingPadding {
+    padding-left: 100px;
+    padding-top: 25px;
+}
 
 .center {text-align: center;}
 
@@ -9,13 +12,23 @@ body {background-color: powderblue;}
     color: Tomato;
     font-family: helvetica;
 }
+
+#title {
+    color:#000000;
+    text-shadow:none;
+    margin: 0px;
+    margin-top: -1px;
+    padding: 25px;
+    background-color: #ffffff;
+}
+
 h1 {
     color: #3ba390;
     font-size: 55px;
     text-shadow: 2px 2px red;
 }
 p {
-    color: black;
+    color: #000000;
     margin-left:10px;
     text-rendering: optimizeLegibility;
     letter-spacing: 0px;
@@ -34,7 +47,7 @@ ul {
 ol {
     list-style-type: decimal-leading-zero;
     font-size: 25px;
-    color: purple;
+    color: black;
 }
 
 a:hover, a:active{text-decoration: underline}
@@ -54,3 +67,13 @@ td, th {
     padding: 6px;
 }
 tr:nth-child(even) {background-color: #dddddd;}
+
+.secondRow {color:#119c21;}
+
+.thirdRow {color:#115b9c;}
+
+.fourthrow {color:#75119c;}
+
+.fifthRow {color:#9c1649;}
+
+.navbar-brand, .nav-link {color: #000000;}
